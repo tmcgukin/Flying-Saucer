@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8299EBBA1F998830002CF520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299EBB91F998830002CF520 /* AppDelegate.swift */; };
+		8299EBBC1F998830002CF520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299EBBB1F998830002CF520 /* ViewController.swift */; };
+		8299EBBF1F998830002CF520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8299EBBD1F998830002CF520 /* Main.storyboard */; };
+		8299EBC21F998830002CF520 /* Flying_Saucer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8299EBC01F998830002CF520 /* Flying_Saucer.xcdatamodeld */; };
+		8299EBC41F998830002CF520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8299EBC31F998830002CF520 /* Assets.xcassets */; };
+		8299EBC71F998830002CF520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8299EBC51F998830002CF520 /* LaunchScreen.storyboard */; };
+		8299EBD21F998830002CF520 /* Flying_SaucerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299EBD11F998830002CF520 /* Flying_SaucerTests.swift */; };
+		8299EBDD1F998830002CF520 /* Flying_SaucerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299EBDC1F998830002CF520 /* Flying_SaucerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8299EBCE1F998830002CF520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8299EBAE1F998830002CF520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8299EBB51F998830002CF520;
+			remoteInfo = "Flying Saucer";
+		};
+		8299EBD91F998830002CF520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8299EBAE1F998830002CF520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8299EBB51F998830002CF520;
+			remoteInfo = "Flying Saucer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8299EBB61F998830002CF520 /* Flying Saucer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flying Saucer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8299EBB91F998830002CF520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8299EBBB1F998830002CF520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8299EBBE1F998830002CF520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8299EBC11F998830002CF520 /* Flying_Saucer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flying_Saucer.xcdatamodel; sourceTree = "<group>"; };
+		8299EBC31F998830002CF520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8299EBC61F998830002CF520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8299EBC81F998830002CF520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8299EBCD1F998830002CF520 /* Flying SaucerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying SaucerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8299EBD11F998830002CF520 /* Flying_SaucerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flying_SaucerTests.swift; sourceTree = "<group>"; };
+		8299EBD31F998830002CF520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8299EBD81F998830002CF520 /* Flying SaucerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying SaucerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8299EBDC1F998830002CF520 /* Flying_SaucerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flying_SaucerUITests.swift; sourceTree = "<group>"; };
+		8299EBDE1F998830002CF520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8299EBB31F998830002CF520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8299EBCA1F998830002CF520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8299EBD51F998830002CF520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8299EBAD1F998830002CF520 = {
+			isa = PBXGroup;
+			children = (
+				8299EBB81F998830002CF520 /* Flying Saucer */,
+				8299EBD01F998830002CF520 /* Flying SaucerTests */,
+				8299EBDB1F998830002CF520 /* Flying SaucerUITests */,
+				8299EBB71F998830002CF520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8299EBB71F998830002CF520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8299EBB61F998830002CF520 /* Flying Saucer.app */,
+				8299EBCD1F998830002CF520 /* Flying SaucerTests.xctest */,
+				8299EBD81F998830002CF520 /* Flying SaucerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8299EBB81F998830002CF520 /* Flying Saucer */ = {
+			isa = PBXGroup;
+			children = (
+				8299EBB91F998830002CF520 /* AppDelegate.swift */,
+				8299EBBB1F998830002CF520 /* ViewController.swift */,
+				8299EBBD1F998830002CF520 /* Main.storyboard */,
+				8299EBC31F998830002CF520 /* Assets.xcassets */,
+				8299EBC51F998830002CF520 /* LaunchScreen.storyboard */,
+				8299EBC81F998830002CF520 /* Info.plist */,
+				8299EBC01F998830002CF520 /* Flying_Saucer.xcdatamodeld */,
+			);
+			path = "Flying Saucer";
+			sourceTree = "<group>";
+		};
+		8299EBD01F998830002CF520 /* Flying SaucerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8299EBD11F998830002CF520 /* Flying_SaucerTests.swift */,
+				8299EBD31F998830002CF520 /* Info.plist */,
+			);
+			path = "Flying SaucerTests";
+			sourceTree = "<group>";
+		};
+		8299EBDB1F998830002CF520 /* Flying SaucerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8299EBDC1F998830002CF520 /* Flying_SaucerUITests.swift */,
+				8299EBDE1F998830002CF520 /* Info.plist */,
+			);
+			path = "Flying SaucerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8299EBB51F998830002CF520 /* Flying Saucer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8299EBE11F998830002CF520 /* Build configuration list for PBXNativeTarget "Flying Saucer" */;
+			buildPhases = (
+				8299EBB21F998830002CF520 /* Sources */,
+				8299EBB31F998830002CF520 /* Frameworks */,
+				8299EBB41F998830002CF520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flying Saucer";
+			productName = "Flying Saucer";
+			productReference = 8299EBB61F998830002CF520 /* Flying Saucer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8299EBCC1F998830002CF520 /* Flying SaucerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8299EBE41F998830002CF520 /* Build configuration list for PBXNativeTarget "Flying SaucerTests" */;
+			buildPhases = (
+				8299EBC91F998830002CF520 /* Sources */,
+				8299EBCA1F998830002CF520 /* Frameworks */,
+				8299EBCB1F998830002CF520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8299EBCF1F998830002CF520 /* PBXTargetDependency */,
+			);
+			name = "Flying SaucerTests";
+			productName = "Flying SaucerTests";
+			productReference = 8299EBCD1F998830002CF520 /* Flying SaucerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8299EBD71F998830002CF520 /* Flying SaucerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8299EBE71F998830002CF520 /* Build configuration list for PBXNativeTarget "Flying SaucerUITests" */;
+			buildPhases = (
+				8299EBD41F998830002CF520 /* Sources */,
+				8299EBD51F998830002CF520 /* Frameworks */,
+				8299EBD61F998830002CF520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8299EBDA1F998830002CF520 /* PBXTargetDependency */,
+			);
+			name = "Flying SaucerUITests";
+			productName = "Flying SaucerUITests";
+			productReference = 8299EBD81F998830002CF520 /* Flying SaucerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8299EBAE1F998830002CF520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Thomas McGukin";
+				TargetAttributes = {
+					8299EBB51F998830002CF520 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8299EBCC1F998830002CF520 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8299EBB51F998830002CF520;
+					};
+					8299EBD71F998830002CF520 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8299EBB51F998830002CF520;
+					};
+				};
+			};
+			buildConfigurationList = 8299EBB11F998830002CF520 /* Build configuration list for PBXProject "Flying Saucer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8299EBAD1F998830002CF520;
+			productRefGroup = 8299EBB71F998830002CF520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8299EBB51F998830002CF520 /* Flying Saucer */,
+				8299EBCC1F998830002CF520 /* Flying SaucerTests */,
+				8299EBD71F998830002CF520 /* Flying SaucerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8299EBB41F998830002CF520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8299EBC71F998830002CF520 /* LaunchScreen.storyboard in Resources */,
+				8299EBC41F998830002CF520 /* Assets.xcassets in Resources */,
+				8299EBBF1F998830002CF520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8299EBCB1F998830002CF520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8299EBD61F998830002CF520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8299EBB21F998830002CF520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8299EBBC1F998830002CF520 /* ViewController.swift in Sources */,
+				8299EBBA1F998830002CF520 /* AppDelegate.swift in Sources */,
+				8299EBC21F998830002CF520 /* Flying_Saucer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8299EBC91F998830002CF520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8299EBD21F998830002CF520 /* Flying_SaucerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8299EBD41F998830002CF520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8299EBDD1F998830002CF520 /* Flying_SaucerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8299EBCF1F998830002CF520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8299EBB51F998830002CF520 /* Flying Saucer */;
+			targetProxy = 8299EBCE1F998830002CF520 /* PBXContainerItemProxy */;
+		};
+		8299EBDA1F998830002CF520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8299EBB51F998830002CF520 /* Flying Saucer */;
+			targetProxy = 8299EBD91F998830002CF520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8299EBBD1F998830002CF520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8299EBBE1F998830002CF520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8299EBC51F998830002CF520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8299EBC61F998830002CF520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8299EBDF1F998830002CF520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8299EBE01F998830002CF520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8299EBE21F998830002CF520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZVQ7KHQR8;
+				INFOPLIST_FILE = "Flying Saucer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McGuk-inc..Flying-Saucer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8299EBE31F998830002CF520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZVQ7KHQR8;
+				INFOPLIST_FILE = "Flying Saucer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McGuk-inc..Flying-Saucer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8299EBE51F998830002CF520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZVQ7KHQR8;
+				INFOPLIST_FILE = "Flying SaucerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McGuk-inc..Flying-SaucerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flying Saucer.app/Flying Saucer";
+			};
+			name = Debug;
+		};
+		8299EBE61F998830002CF520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZVQ7KHQR8;
+				INFOPLIST_FILE = "Flying SaucerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McGuk-inc..Flying-SaucerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flying Saucer.app/Flying Saucer";
+			};
+			name = Release;
+		};
+		8299EBE81F998830002CF520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZVQ7KHQR8;
+				INFOPLIST_FILE = "Flying SaucerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McGuk-inc..Flying-SaucerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flying Saucer";
+			};
+			name = Debug;
+		};
+		8299EBE91F998830002CF520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZVQ7KHQR8;
+				INFOPLIST_FILE = "Flying SaucerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McGuk-inc..Flying-SaucerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flying Saucer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8299EBB11F998830002CF520 /* Build configuration list for PBXProject "Flying Saucer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8299EBDF1F998830002CF520 /* Debug */,
+				8299EBE01F998830002CF520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8299EBE11F998830002CF520 /* Build configuration list for PBXNativeTarget "Flying Saucer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8299EBE21F998830002CF520 /* Debug */,
+				8299EBE31F998830002CF520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8299EBE41F998830002CF520 /* Build configuration list for PBXNativeTarget "Flying SaucerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8299EBE51F998830002CF520 /* Debug */,
+				8299EBE61F998830002CF520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8299EBE71F998830002CF520 /* Build configuration list for PBXNativeTarget "Flying SaucerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8299EBE81F998830002CF520 /* Debug */,
+				8299EBE91F998830002CF520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8299EBC01F998830002CF520 /* Flying_Saucer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8299EBC11F998830002CF520 /* Flying_Saucer.xcdatamodel */,
+			);
+			currentVersion = 8299EBC11F998830002CF520 /* Flying_Saucer.xcdatamodel */;
+			path = Flying_Saucer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8299EBAE1F998830002CF520 /* Project object */;
+}
